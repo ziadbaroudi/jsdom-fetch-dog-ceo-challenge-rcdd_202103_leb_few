@@ -9,6 +9,7 @@ window.addEventListener("DOMContentLoad", ()=>{
   function add(){
     let div = document.getElementById("dog-image-container");
     let im = document.createElement("img");
+    im.src = url;
     div.appendChild(im)
   }
 })
