@@ -1,4 +1,4 @@
-console.log('%c HI', 'color: firebrick')
+console.log('%c HI', 'color: firebrick');
 
 window.addEventListener("DOMContentLoaded", ()=>{
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
