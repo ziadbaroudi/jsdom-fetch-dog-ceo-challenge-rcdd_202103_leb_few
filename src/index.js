@@ -1,5 +1,5 @@
 console.log('%c HI', 'color: firebrick')
 
 window.addEventListener("DOMContentLoad", ()=>{
-  const
+  const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
 })
