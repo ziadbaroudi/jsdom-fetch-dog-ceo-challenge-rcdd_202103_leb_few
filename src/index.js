@@ -7,6 +7,8 @@ window.addEventListener("DOMContentLoad", ()=>{
   .then(json => json)
   
   function add(){
-    let cont 
+    let div = document.getElementById("dog-image-container");
+    let im = document.createElement("img");
+    div.appendChild(im)
   }
 })
