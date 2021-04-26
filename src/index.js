@@ -2,7 +2,7 @@ console.log('%c HI', 'color: firebrick');
 
 window.addEventListener("DOMContentLoaded", ()=>{
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
-  const breedUrl = 'https://dog.ceo/api/breeds/list/all'
+  // const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(imgUrl)
   .then(resp => resp.json())
   .then(json => {json.message.forEach(image => addimg(image));
