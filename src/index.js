@@ -1,5 +1,5 @@
 console.log('%c HI', 'color: firebrick');
-let breeds =[]
+let breeds =[];
 
 window.addEventListener("DOMContentLoaded", ()=>{
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
