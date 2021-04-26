@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
   .then(res => res.json())
   .then(json => {})
   
-  function add(url){
+  function addimg(url){
     let div = document.getElementById("dog-image-container");
     let im = document.createElement("img");
     im.src = url;
