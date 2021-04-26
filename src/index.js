@@ -1,6 +1,7 @@
 console.log('%c HI', 'color: firebrick');
 
 window.addEventListener("DOMContentLoaded", ()=>{
+  const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
   fetch(imgUrl)
   .then(resp => resp.json())
