@@ -5,4 +5,8 @@ window.addEventListener("DOMContentLoad", ()=>{
   fetch(imgUrl)
   .then(resp => resp.json())
   .then(json => json)
+  
+  function add(){
+    let cont 
+  }
 })
