@@ -10,7 +10,8 @@ window.addEventListener("DOMContentLoaded", ()=>{
   });
   
   fetch(breedUrl)
-  .then
+  .then(res => res.json())
+  .then(json => {})
   
   function add(url){
     let div = document.getElementById("dog-image-container");
