@@ -19,4 +19,10 @@ window.addEventListener("DOMContentLoaded", ()=>{
     im.src = url;
     div.appendChild(im);
   }
+  
+  function breed(b){
+    let ul = document.getElementById("dog-breeds");
+    removeChildren(ul);
+    b.forEach(breed=>)
+  }
 });
