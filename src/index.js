@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
   fetch(imgUrl)
   .then(resp => resp.json())
-  .then(json => {json.message.forEach(image => add(image))})
+  .then(json => {json.forEach(image => add(image))})
   
   function add(url){
     let div = document.getElementById("dog-image-container");
