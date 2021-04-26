@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   fetch(imgUrl)
   .then(resp => resp.json())
-  .then(json => {json.message.forEach(image => add(image));
+  .then(json => {json.message.forEach(image => addimg(image));
     
   });
   
