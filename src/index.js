@@ -9,6 +9,9 @@ window.addEventListener("DOMContentLoaded", ()=>{
     
   });
   
+  fetch(breedUrl)
+  .then
+  
   function add(url){
     let div = document.getElementById("dog-image-container");
     let im = document.createElement("img");
