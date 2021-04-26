@@ -12,4 +12,4 @@ window.addEventListener("DOMContentLoaded", ()=>{
     im.src = url;
     div.appendChild(im)
   }
-})
+});
